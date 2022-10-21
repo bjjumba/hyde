@@ -59,7 +59,7 @@ const Team=()=> {
                                 </div>
                                 <div className="px-6 mt-16">
                                     <div className="font-bold text-3xl text-center pb-1">Namulindwa Madrine</div>
-                                    <p className="text-gray-800 text-sm text-center">Product Manager</p>
+                                    <p className="text-gray-800 text-sm text-center">Project Manager</p>
                                     <p className="text-center text-gray-600 text-base pt-3 font-normal">The emphasis on innovation and technology in our companies has resulted in a few of them establishing global benchmarks in product design and development.</p>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         <a href="javascript:void(0)" className="mx-5">
