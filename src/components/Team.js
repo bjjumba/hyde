@@ -15,7 +15,7 @@ const Team=()=> {
                             <div className="rounded overflow-hidden shadow-md bg-white">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
-                                        <img src="https://res-console.cloudinary.com/di4su7hro/thumbnails/v1/image/upload/v1666368765/SFlERSBVRy9XaGF0c0FwcF9JbWFnZV8yMDIyLTEwLTIxX2F0XzE4LjUzLjUxX2N6dmQyNA==/preview" alt className="rounded-full object-cover h-full w-full shadow-md" />
+                                        <img src="https://res-console.cloudinary.com/di4su7hro/thumbnails/v1/image/upload/v1666368765/SFlERSBVRy9XaGF0c0FwcF9JbWFnZV8yMDIyLTEwLTIxX2F0XzE4LjUzLjUxX2N6dmQyNA==/preview" alt className="rounded-full object-cover h-full w-full shadow-md" loading={React.lazy()}/>
                                     </div>
                                 </div>
                                 <div className="px-6 mt-16">
@@ -54,7 +54,7 @@ const Team=()=> {
                             <div className="rounded overflow-hidden shadow-md bg-white">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
-                                        <img src="https://res-console.cloudinary.com/di4su7hro/thumbnails/v1/image/upload/v1666368765/SFlERSBVRy9XaGF0c0FwcF9JbWFnZV8yMDIyLTEwLTIxX2F0XzE4LjUzLjUxX2N6dmQyNA==/preview" alt className="rounded-full object-cover h-full w-full shadow-md" />
+                                        <img src="https://res-console.cloudinary.com/di4su7hro/thumbnails/v1/image/upload/v1666368765/SFlERSBVRy9XaGF0c0FwcF9JbWFnZV8yMDIyLTEwLTIxX2F0XzE4LjUzLjUxX2N6dmQyNA==/preview" alt className="rounded-full object-cover h-full w-full shadow-md" loading={React.lazy()}/>
                                     </div>
                                 </div>
                                 <div className="px-6 mt-16">
@@ -93,7 +93,7 @@ const Team=()=> {
                             <div className="rounded overflow-hidden shadow-md bg-white">
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
-                                        <img src="https://res-console.cloudinary.com/di4su7hro/thumbnails/v1/image/upload/v1666368765/SFlERSBVRy9XaGF0c0FwcF9JbWFnZV8yMDIyLTEwLTIxX2F0XzE4LjUzLjUxX2N6dmQyNA==/preview" alt className="rounded-full object-cover h-full w-full shadow-md" />
+                                        <img src="https://res-console.cloudinary.com/di4su7hro/thumbnails/v1/image/upload/v1666368765/SFlERSBVRy9XaGF0c0FwcF9JbWFnZV8yMDIyLTEwLTIxX2F0XzE4LjUzLjUxX2N6dmQyNA==/preview" alt className="rounded-full object-cover h-full w-full shadow-md" loading={React.lazy()} />
                                     </div>
                                 </div>
                                 <div className="px-6 mt-16">
