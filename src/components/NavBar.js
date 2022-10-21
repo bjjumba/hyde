@@ -15,9 +15,7 @@ const NavBar = () => {
          <Link to= "home" smooth={true} duration={500} >Home</Link>
          <Link to= "about" smooth={true} duration={500}>About</Link>
          <Link to= "services" smooth={true} duration={500}>Services</Link>
-         <Link to= "portofolio" smooth={true} duration={500}>Portifolio</Link>
          <Link to= "team" smooth={true} duration={500}>Team</Link>
-         <Link to= "blog" smooth={true} duration={500}>Blog</Link>
          <Link to= "contact" smooth={true} duration={500} >Contact Us</Link>
       </nav>
      
