@@ -1,0 +1,162 @@
+:root{
+  --min-color:#fff;
+  --sc-color:#3ec1d5;
+  --th-color:#333
+}
+/* Scroll code */
+
+header{
+  position:fixed;
+  top:0;right:0;left:0;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 1rem 3%;
+  background-color: rgba(10, 10,9,0.6);
+  z-index: 1001;
+}
+
+header a .logo{ 
+  font-size: 2.5rem;
+  color:var(--min-color);
+  padding:0.4rem;
+}
+
+header .navbar a{
+  margin: 0 0.8rem;
+  font-size:1rem;
+  color:var(--min-color);
+  padding:0.4rem;
+}
+
+header .navbar a:hover{
+  color:var(--sc-color);
+}
+
+header .fa-bars:hover{
+  color:var(--sc-color);
+}
+
+header .fa-bars{
+  font-size: 1.2rem;
+  color:var(--min-color);
+  cursor:pointer;
+  display:none;
+}
+
+/* media query */
+
+@media(max-width:850px){
+  header .fa-bars{
+    display:block;
+  }
+  header .navbar{
+    position:fixed;
+    top:1000000rem; left:0;
+    text-align:center;
+    width:100%;
+    background:rgba(10, 10,9,0.6);
+  }
+
+  header .navbar.active{
+    top:3.5rem;
+  }
+
+  header .navbar a{
+    display: block;
+    margin:0.3rem 0;
+    padding:1rem;
+    font-size: 2.6rem;
+    color:var(--min-color)
+  }
+  header .navbar a:hover{
+    background-color: var(--min-color)
+  }
+}
+
+
+.home .home-slid .box{
+  position: relative;
+}
+
+.home .home-slid .box::before{
+  content:"";
+  background:rgba(0,0,0,0.6);
+  position:absolute;
+  top:0;left:0;
+  bottom:0;right:0;
+}
+
+.home .home-slid .box .content{
+  position:absolute;
+  top:50%; left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+  color:var(--sc-color);
+}
+
+.home .home-slid .box .content h3{
+  font-size: 4rem;
+}
+
+.home .home-slid .box .content p{
+  font-size: 2.5rem;
+  margin:1rem 0;
+}
+.btn{
+  display: inline-block;
+  padding:0.8rem 3.8rem;
+  font-size: 1.8rem;
+  border:0.1rem solid var(--sc-color);
+  outline:0;
+  background:var(--sc-color);
+  border-radius:1rem;
+  cursor:pointer;
+  text-align:center;
+  color:var(--min-color);
+}
+
+.btn:hover{
+  background:none;
+  color:var(--min-color);
+}
+
+img{
+  height: 400px;
+  width:100%;
+}
+
+/* Styling about */
+.heading{
+  margin:2.5rem auto;
+  font-size: 1.5rem;
+  text-align:center;
+  color:var(--th-color);
+}
+
+.heading div{
+  display: inline-block;
+  border-bottom: 0.2rem solid var(--th-color);
+  width:7.5rem;
+}
+
+.heading div:hover{
+  width:15rem;
+}
+
+.about{
+  background:#eee;
+}
+
+.about .box{
+  display:flex;align-items:center;
+  justify-content: space-between;
+  gap:2rem;
+  margin-top:7rem;
+}
+
+.about .box .image img{
+  width:200px;
+  height:200px;
+  object-fit:cover;
+}
