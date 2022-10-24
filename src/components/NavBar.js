@@ -7,6 +7,11 @@ const NavBar = () => {
     const handleClick=()=>{
         setNav(!nav)
     }
+
+    const toggledBar=()=>{
+        setNav(false)
+    }
+
   return (
     <header className="header">
       <Link to="/" className="Logo">
@@ -14,11 +19,11 @@ const NavBar = () => {
       </Link>
 
       <nav className={nav?'navbar active':'navbar'}>
-         <Link to= "home" smooth={true} duration={500} >Home</Link>
-         <Link to= "about" smooth={true} duration={500}>About</Link>
-         <Link to= "services" smooth={true} duration={500}>Services</Link>
-         <Link to= "team" smooth={true} duration={500}>Team</Link>
-         <Link to= "contact" smooth={true} duration={500} >Contact Us</Link>
+         <Link to= "home" smooth={true} duration={500} onClick={toggledBar} >Home</Link>
+         <Link to= "about" smooth={true} duration={500} onClick={toggledBar}>About</Link>
+         <Link to= "services" smooth={true} duration={500} onClick={toggledBar}>Services</Link>
+         <Link to= "team" smooth={true} duration={500} onClick={toggledBar}>Team</Link>
+         <Link to= "contact" smooth={true} duration={500} onClick={toggledBar}>Contact Us</Link>
       </nav>
      
       <FaBars className="fa-bars" onClick={handleClick}/>
