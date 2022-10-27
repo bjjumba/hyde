@@ -3,6 +3,19 @@
   --sc-color:#3ec1d5;
   --th-color:#333
 }
+/* hhh */
+::-webkit-scrollbar {
+  width:10px; /* creates padding around scroll thumb */
+}
+
+::-webkit-scrollbar-track {
+   background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image:linear-gradient(red,blue);
+  border-radius: 10px;
+}
 /* Scroll code */
 
 header{

@@ -205,7 +205,7 @@ export default function Products() {
                             <Slider>
                                  {projects.map(item =>{
                                    return <SlideItem {...item} key={item.index}/>
-                               })}
+                                  })}
                             </Slider>
                         </div>
                         <ButtonNext role="button" aria-label="slide forward" className="absolute z-30 right-0 mr-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400" id="next">
